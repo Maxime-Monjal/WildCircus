@@ -1,5 +1,5 @@
 # WildCircus
-Validation project to integrate the wild code school
-Here: 
+Validation project to integrate the Wild Code School
 
-https://maxime-monjal.github.io/WildCircus/
+
+Here: https://maxime-monjal.github.io/WildCircus/
