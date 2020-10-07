@@ -1,0 +1,195 @@
+/*============= GENERAL================*/
+
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC&display=swap");
+
+html{font-family: 'Amatic SC';}
+
+body{margin: 0;
+ background: #010126;
+ color: #FDEDB8;}
+
+section{height: 100vh;
+ max-height: 1200px;
+ min-height: 700px;
+ width: 100%;
+ max-width: 1920px;
+ min-width: 700px;}
+
+/*==============HEADER=================*/
+
+.image{height: 100vh;
+ max-height: 1200px;
+ min-height: 700px;
+ width: 100%;
+ max-width: 1920px;
+ min-width: 700px;
+ background-image: url("https://palife.co.uk/wp-content/uploads/2019/09/The-Dream-Circus.jpg");
+ background-position: center; 
+ background-size: cover;}
+
+h1{margin: 0px;
+ padding-top: 250px;
+ text-align: center;
+ font-size: 160px;
+ letter-spacing: 1.6px;
+ text-shadow: 4px 5px #010126;
+ color: #E31027;}
+
+h2{margin: 0;
+ padding-top: 60px; 
+ text-align: center;
+ font-size: 50px;
+ letter-spacing: 1.6px;
+ text-shadow: 2px 1px #E31027;}
+
+h3{margin-bottom: 10px;
+ text-align: center;
+ font-size: 42px;}
+
+.wildtitle{margin-right: 350px;}
+
+/*=============NAV-BAR=================*/
+ 
+
+.nav-bar{top: 0;
+ position: fixed;
+ width: 100%;
+ height: 60px;
+ margin-left: auto;
+ margin-right: auto;
+ background: #010126;
+ z-index: 2;}
+
+.nav-bar li{float: left;
+ width: 20%; 
+ list-style-type: none;}
+
+.nav-bar li a{display: block;
+ text-align: center;
+ font-weight: bold;
+ text-decoration: none;
+ font-size: 20px;
+ transition: all 0.5s ease-out; 
+ -webkit-transition: all 0.5s ease-out;
+ color: #FDEDB8;}
+
+.nav-bar li a:hover{color: #E31027;}
+
+/*===============Performances==========*/
+
+ .perf{height: 100vh;
+ max-height: 1200px;
+ min-height: 650px;
+ width: 100%;
+ max-width: 1920px;
+ min-width: 700px;
+ color: #FDEDB8;}  
+
+.perf ul{display: flex; 
+ padding: 0 20px;
+ list-style: none;}
+
+.perf li{width: 100%;
+ height: 100%;}
+
+.perf li p{height: 140px;
+ margin-bottom: 0;
+ text-align: center; 
+ font-size: 25px;}
+
+.perfimg{display:flex;
+ justify-content:space-around;}
+
+.piclaugh{width:30%;}
+.picdream{width:30%;}
+.picmarvel{width:30%;}
+
+.piclaugh:hover{opacity: 0.8;}
+.picdream:hover{opacity: 0.8;}
+.picmarvel:hover{opacity: 0.8;}
+
+
+/*==============ABOUT Us===============*/
+.aboutdiv{display: flex;
+ justify-content: space-around;}
+
+.aboutpic{height: 75vh;
+ margin: 26px 20px 0;
+ border-radius: 50%;}
+.aboutpic:hover{opacity: 0.8;}
+
+
+.abouttext{height: 75vh;
+ margin: 0 20px;
+ padding-top: 100px;
+ text-align: center;
+ font-size: 30px;}
+
+
+/*=================PRICES==============*/
+
+table{height: 450px;
+ width: 95%;
+ table-layout: fixed;
+ margin: 26px auto 0;
+ border-collapse: collapse;}
+
+thead th{text-align: center;
+ font-size: 40px;
+ border: 5px ridge #0168f8;
+ color: #010126;
+ background-color: #FDEDB8; }
+
+tbody td{text-align: center;
+ font-size: 40px;  
+ border: 5px ridge #0168f8;}
+
+tbody td:first-child{color: #010126;
+ background-color: #FDEDB8;}
+
+.ifyou{margin: auto;
+ width:95%;
+ font-size: 20px;}
+
+.detail{font-size: 25px;}
+
+/*=================CONTACT=============*/
+
+form{margin-top: 15vh;
+ text-align: center;}
+
+fieldset{margin: 0;
+ border: 0;}
+
+.writeus{width: 60%;
+ margin: auto;
+ background-color:#FDEDB8;
+ border-radius: 150px;}
+
+label{display: block;
+ margin: 10px;
+ font-size: 48px;
+ color: #010126;}
+
+#mail{border-radius: 16px;}
+
+textarea{resize: none;
+ border-radius: 16px;}
+
+#button{height: 35px;
+ width: 100px;
+ margin: 10px;
+ font-size: 16px;
+ font-weight: bold;
+ background-color: #E31027;
+ color: #FDEDB8;
+ border-radius: 10px;
+ cursor: pointer;}
+
+/*=================FOOTER==============*/
+
+.footer p{margin: 0;}
+
+.footer a{color: #FDEDB8;}
+.footer a:visited{color: #FDEDB8;} 
+.footer a:hover{color: #E31027;}
